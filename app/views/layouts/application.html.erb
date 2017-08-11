@@ -17,6 +17,17 @@
   </head>
 
   <body>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <a href="#" class="navbar-brand">Actividad 22</a>
+          <ul class="nav navbar-nav navbar-right">
+            <li><%= link_to "Index", root_path %></li>
+            <li><%= link_to "Landing", pages_landing_path %></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <%= yield %>
   </body>
 </html>
